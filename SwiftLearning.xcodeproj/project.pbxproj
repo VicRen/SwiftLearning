@@ -159,6 +159,8 @@
 		1CD098C01B1096FC00E162E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Vic Ren";
 				TargetAttributes = {
@@ -415,6 +417,7 @@
 				1CD098EB1B1096FC00E162E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CD098EC1B1096FC00E162E9 /* Build configuration list for PBXNativeTarget "SwiftLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				1CD098EE1B1096FC00E162E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
