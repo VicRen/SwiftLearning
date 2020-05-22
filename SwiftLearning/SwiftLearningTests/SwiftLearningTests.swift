@@ -2,35 +2,33 @@
 //  SwiftLearningTests.swift
 //  SwiftLearningTests
 //
-//  Created by Vic Ren on 15/5/23.
-//  Copyright (c) 2015年 Vic Ren. All rights reserved.
+//  Created by Vic Ren on 2020/5/22.
+//  Copyright © 2020 Vic Ren. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import SwiftLearning
 
 class SwiftLearningTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
+
+    override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
-    override func tearDown() {
+
+    override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
     }
-    
-    func testExample() {
+
+    func testExample() throws {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
-    func testPerformanceExample() {
+
+    func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
 }
