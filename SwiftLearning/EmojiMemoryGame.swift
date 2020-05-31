@@ -28,7 +28,4 @@ class EmojiMemoryGame: ObservableObject {
         objectWillChange.send()
         game.choose(card: card)
     }
-    
-    func testing() {
-    }
 }
