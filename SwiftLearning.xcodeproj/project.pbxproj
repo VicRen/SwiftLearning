@@ -18,6 +18,9 @@
 		1C9A7C2B2477FFEA00FF7738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A7C292477FFEA00FF7738 /* LaunchScreen.storyboard */; };
 		1C9A7C362477FFEA00FF7738 /* SwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A7C352477FFEA00FF7738 /* SwiftLearningTests.swift */; };
 		1C9A7C412477FFEA00FF7738 /* SwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A7C402477FFEA00FF7738 /* SwiftLearningUITests.swift */; };
+		1CD9E94C2487B5D4009A0E59 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9E94B2487B5D4009A0E59 /* GridLayout.swift */; };
+		1CD9E94E2487B76C009A0E59 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9E94D2487B76C009A0E59 /* Array+Identifiable.swift */; };
+		1CD9E9502487B797009A0E59 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9E94F2487B797009A0E59 /* Array+Only.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		1C9A7C3C2477FFEA00FF7738 /* SwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9A7C402477FFEA00FF7738 /* SwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningUITests.swift; sourceTree = "<group>"; };
 		1C9A7C422477FFEA00FF7738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD9E94B2487B5D4009A0E59 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		1CD9E94D2487B76C009A0E59 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		1CD9E94F2487B797009A0E59 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,15 +111,18 @@
 		1C9A7C1D2477FFE500FF7738 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				1CD9E94B2487B5D4009A0E59 /* GridLayout.swift */,
 				1C9A7C1E2477FFE500FF7738 /* AppDelegate.swift */,
 				1C9A7C202477FFE500FF7738 /* SceneDelegate.swift */,
 				1C9A7C222477FFE500FF7738 /* ContentView.swift */,
 				1C1D2DE9248663D500EDC22D /* Grid.swift */,
+				1CD9E94F2487B797009A0E59 /* Array+Only.swift */,
 				1C9A7C242477FFEA00FF7738 /* Assets.xcassets */,
 				1C9A7C292477FFEA00FF7738 /* LaunchScreen.storyboard */,
 				1C9A7C2C2477FFEA00FF7738 /* Info.plist */,
 				1C1E50C7247BC75A0036AE06 /* MemoryGame.swift */,
 				1C1E50C9247BC9200036AE06 /* EmojiMemoryGame.swift */,
+				1CD9E94D2487B76C009A0E59 /* Array+Identifiable.swift */,
 				1C9A7C262477FFEA00FF7738 /* Preview Content */,
 			);
 			path = SwiftLearning;
@@ -279,8 +288,11 @@
 				1C9A7C1F2477FFE500FF7738 /* AppDelegate.swift in Sources */,
 				1C9A7C212477FFE500FF7738 /* SceneDelegate.swift in Sources */,
 				1C1E50C8247BC75A0036AE06 /* MemoryGame.swift in Sources */,
+				1CD9E9502487B797009A0E59 /* Array+Only.swift in Sources */,
 				1C9A7C232477FFE500FF7738 /* ContentView.swift in Sources */,
 				1C1E50CA247BC9200036AE06 /* EmojiMemoryGame.swift in Sources */,
+				1CD9E94E2487B76C009A0E59 /* Array+Identifiable.swift in Sources */,
+				1CD9E94C2487B5D4009A0E59 /* GridLayout.swift in Sources */,
 				1C1D2DEA248663D500EDC22D /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
